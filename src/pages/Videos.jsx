@@ -31,8 +31,8 @@ function Videos() {
               target="_blank"
             >
               <div style={{display: "flex", flexDirection: "row-reverse"}}>
-                <img src={video.pic} style={{ width: "100px", borderRadius: "5px" }} />
-                <div>{video.title}</div>
+                <img src={video.pic} style={{ width: "150px", borderRadius: "5px" }} />
+                <div style={{marginRight: "10px", fontSize: "1.3em"}}>{video.title}</div>
               </div>
             </a>
           );
