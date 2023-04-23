@@ -1,6 +1,6 @@
 import Header from "../Header";
 
-function Mawsou3a() {
+function Atlas() {
   return (
     <div>
       <div>
@@ -21,4 +21,4 @@ function Mawsou3a() {
   );
 }
 
-export default Mawsou3a;
+export default Atlas;

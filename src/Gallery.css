@@ -8,5 +8,7 @@
 
 .Gallery_container_header_header {
     font-size: 1.6em;
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Rakkas', cursive;
 }
