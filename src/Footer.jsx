@@ -63,7 +63,7 @@ function Footer() {
         <div className="Footer_container_1_header">إتصل بنا</div>
         <div className="Footer_container_1_email_section">
           <div>{emailIcon}</div>
-          <div>knowyourcountry@gmail.com</div>
+          <div>country@gmail.com</div>
         </div>
         <div className="Footer_container_1_phone_section">
           <div>{phoneIcon}</div>
