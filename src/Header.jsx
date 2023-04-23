@@ -90,7 +90,7 @@ function Header({ styleProp, menuColorProp }) {
       </Modal>
 
       <Link className="logo" to="/">
-        بلادي
+      إعرف بلادك
       </Link>
 
       <div className="big-screen">

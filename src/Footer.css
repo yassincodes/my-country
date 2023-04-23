@@ -1,7 +1,47 @@
 .Footer_container {
-    margin-top: 45px;
-    height: 30vh;
-    background-color: rgb(255, 106, 106);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+  margin-top: 45px;
+  background-color: #fc8369;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  padding: 20px;
+}
+
+.Footer_container_1 {
+  width: 50vw;
+}
+
+.Footer_container_1_header {
+  font-family: "Rakkas", cursive;
+}
+
+.Footer_container_1_email_section {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.Footer_container_1_phone_section {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.Footer_container_2 {
+  width: 50vw;
+}
+
+.Footer_container_2_header {
+  font-family: "Rakkas", cursive;
+}
+
+.Footer_container_2_about_section {
+}
+
+.Footer_container_2_link_section {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }

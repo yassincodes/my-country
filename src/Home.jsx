@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import FrontPage from "./FrontPage";
 import About from "./About";
 import Gallery from "./Gallery";
-import WebsiteSections from "./WebsiteSections";
-import Footer from "./Footer"
+import Footer from "./Footer";
+import logo from "./assets/logo.jpeg";
 
 const AnimatedButton = motion(Button);
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
     const timer = setTimeout(() => {
       setShowParagraph(false);
       setShowTopContent(true);
-    }, 2000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -24,18 +24,30 @@ function Home() {
     <div>
       <div>
         {showParagraph && (
-          <motion.p
-            className="paragraph"
-            initial={{ opacity: 0, y: 20, scale: 0.8 }}
-            animate={{
-              opacity: 1,
-              y: 0,
-              scale: 1,
-              transition: { type: "spring", stiffness: 200, damping: 12 },
-            }}
-          >
-            <div>loading ....</div>
-          </motion.p>
+          <div>
+            <motion.div
+              className="before_Home"
+              style={{
+                height: "80vh",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              initial={{ opacity: 0, y: 20, scale: 0.8 }}
+              animate={{
+                opacity: 1,
+                y: 0,
+                scale: 1,
+                transition: { type: "spring", stiffness: 200, damping: 12 },
+              }}
+            >
+              <img src={logo} style={{ width: "40vw" }} alt="logo" />
+            </motion.div>
+            <div style={{ textAlign: "center" }}>
+              <div>موقع من إنشاء</div>
+              <div>خالد جلالي وحذامي الحفيان</div>
+            </div>
+          </div>
         )}
 
         {showTopContent && (
