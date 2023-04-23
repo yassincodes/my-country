@@ -1,0 +1,28 @@
+
+
+.About_header {
+    text-align: center;
+    font-size: 1.6em;
+    margin: 15px;
+}
+
+.About_section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.About_section_text {
+    width: 60vw;
+    text-align: right;
+    padding: 15px;  
+}
+
+
+
+.About_section_image {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
