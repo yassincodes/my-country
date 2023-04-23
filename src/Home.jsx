@@ -43,7 +43,6 @@ function Home() {
             <FrontPage />
             <About />
             <Gallery />
-            <WebsiteSections />
             <Footer />
           </div>
         )}
