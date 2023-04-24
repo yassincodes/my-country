@@ -62,7 +62,7 @@ function Header({ styleProp, menuColorProp }) {
       </Modal>
 
       <Link className="logo" to="/">
-      إعرف بلادك
+        إعرف بلادك
       </Link>
 
       <div className="big-screen">
@@ -98,12 +98,16 @@ function Header({ styleProp, menuColorProp }) {
             >
               الدروس والتمارين
             </MenuItem>
-            <MenuItem style={{ flexDirection: "row-reverse" }}>
-              <Link to="/videos">فديوهات تعليمية</Link>
-            </MenuItem>
-            <MenuItem style={{ flexDirection: "row-reverse" }}>
-              <Link to="/atlas">أطلسي</Link>
-            </MenuItem>
+            <Link to="/videos">
+              <MenuItem style={{ flexDirection: "row-reverse" }}>
+                فديوهات تعليمية
+              </MenuItem>
+            </Link>
+            <Link to="/atlas">
+              <MenuItem style={{ flexDirection: "row-reverse" }}>
+                أطلسي
+              </MenuItem>
+            </Link>
           </MenuList>
         </Menu>
       </div>

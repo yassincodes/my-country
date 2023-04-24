@@ -16,7 +16,10 @@ function Atlas() {
           }}
         />
       </div>
-      <div style={{ textAlign: "right", padding: "10vh" }}>five</div>
+      <div style={{ textAlign: "right", padding: "10vh" }}>
+      الأطلس مازال قيد البناء
+      ⏳🚧
+      </div>
     </div>
   );
 }
