@@ -517,7 +517,7 @@ function Lesson6() {
         </div>
         <a
           href="https://play.makeit.app?code=658158"
-          style={{ background: "cornflowerblue", color: "white", display: "flex", borderRadius: "10px", marginTop: "25px" }}
+          style={{ background: "cornflowerblue", color: "white", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "10px", marginTop: "25px", padding: "8px 0" }}
         >
           تمرين تطبيقي
         </a>
