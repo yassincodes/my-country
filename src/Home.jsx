@@ -16,7 +16,7 @@ function Home() {
     const timer = setTimeout(() => {
       setShowParagraph(false);
       setShowTopContent(true);
-    }, 3000);
+    }, 4000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -41,7 +41,7 @@ function Home() {
                 transition: { type: "spring", stiffness: 200, damping: 12 },
               }}
             >
-              <img src={logo} style={{ width: "400px" }} alt="logo" />
+              <img src={logo} style={{ width: "300px" }} alt="logo" />
             </motion.div>
             <div style={{ textAlign: "center" }}>
               <div>موقع من إنشاء</div>
