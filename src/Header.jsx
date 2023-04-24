@@ -26,7 +26,7 @@ function Header({ styleProp, menuColorProp }) {
         <ModalOverlay />
         <ModalContent>
           <ModalHeader style={{ textAlign: "right" }}>
-            إختر المستوى الدراسي
+          أختار المستوى الدراسي
           </ModalHeader>
           <ModalBody
             style={{
