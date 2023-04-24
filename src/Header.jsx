@@ -61,34 +61,6 @@ function Header({ styleProp, menuColorProp }) {
         </ModalContent>
       </Modal>
 
-      <Modal isOpen={isOpen2} onClick={() => setIsOpen2(false)} size="xl">
-        <ModalOverlay />
-        <ModalContent>
-          <ModalHeader style={{ textAlign: "right" }}>موسوعتي</ModalHeader>
-          <ModalBody
-            style={{
-              textAlign: "right",
-              display: "flex",
-              flexDirection: "column",
-              padding: "10vh 10vw",
-            }}
-          >
-            <Button style={{ margin: "10px" }}>حمل</Button>
-            <Button style={{ margin: "10px" }}> إطلع</Button>
-            <Button
-              colorScheme="blue"
-              style={{ margin: "10px" }}
-              onClick={() => setIsOpen2(false)}
-            >
-              إغلاق
-            </Button>
-          </ModalBody>
-          <ModalFooter
-            style={{ display: "flex", justifyContent: "flex-start" }}
-          ></ModalFooter>
-        </ModalContent>
-      </Modal>
-
       <Link className="logo" to="/">
       إعرف بلادك
       </Link>
@@ -106,16 +78,6 @@ function Header({ styleProp, menuColorProp }) {
         </div>
         <div style={{ marginRight: "7.5px", marginLeft: "7.5px" }}>
           <Link to="/videos">فديوهات تعليمية</Link>
-        </div>
-        <div
-          style={{
-            marginRight: "7.5px",
-            marginLeft: "7.5px",
-            cursor: "pointer",
-          }}
-          onClick={() => setIsOpen2(true)}
-        >
-          موسوعتي
         </div>
         <div style={{ marginRight: "7.5px", marginLeft: "7.5px" }}>
           <Link to="/atlas">أطلسي</Link>
@@ -138,12 +100,6 @@ function Header({ styleProp, menuColorProp }) {
             </MenuItem>
             <MenuItem style={{ flexDirection: "row-reverse" }}>
               <Link to="/videos">فديوهات تعليمية</Link>
-            </MenuItem>
-            <MenuItem
-              style={{ flexDirection: "row-reverse" }}
-              onClick={() => setIsOpen2(true)}
-            >
-              موسوعتي
             </MenuItem>
             <MenuItem style={{ flexDirection: "row-reverse" }}>
               <Link to="/atlas">أطلسي</Link>

@@ -4,7 +4,7 @@ import Six from "./pages/Six"
 import Videos from "./pages/Videos"
 import Mawsou3a from "./pages/Mawsou3a"
 import Atlas from "./pages/Atlas"
-import Lesson6 from "./pages/five/Lesson6"
+import Lesson6 from "./pages/six/Lesson6"
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path="/mawsou3a" element={<Mawsou3a />} />
         <Route path="/videos" element={<Videos />} />
 
-        <Route path="/5/lesson-6" element={<Lesson6 />} />
+        <Route path="/6/lesson-6" element={<Lesson6 />} />
       </Routes>
     </>
   );
