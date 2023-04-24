@@ -2,12 +2,15 @@ import "./About.css";
 
 function About() {
   return (
-    <div style={{ width: "100%", marginTop: "6vh" }} className="About_container">
+    <div
+      style={{ width: "100%", marginTop: "6vh" }}
+      className="About_container"
+    >
       <div className="About_header">عن الموقع</div>
       <div className="About_section">
-        <div className="About_section_text"> 
+        <div className="About_section_text">
           موقع "بلادنا" هو عبارة عن مرجع كامل للمعلمين والتلاميذ المهتمين بدراسة
-          البلاد التونسية ومعرفة المزيد عنها, يحتوي الموقع عشرات الدروس
+          جغرافيا البلاد التونسية ومعرفة المزيد عنها, يحتوي الموقع عشرات الدروس
           والتمارين المعدة بعناية والمطابقة للبرامج الرسمية
         </div>
         <div className="About_section_image">

@@ -515,6 +515,7 @@ function Lesson6() {
             </p>
           </div>
         </div>
+        <a href="https://play.makeit.app?code=658158" style={{width: "90vw"}}>تمرين تطبيقي</a>
       </div>
     </div>
   );
