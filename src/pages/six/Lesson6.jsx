@@ -41,12 +41,21 @@ function Lesson6() {
           من المؤسسات الصناعية وخاصة الصغرى منها والتي توفّر مئات الآلاف من
           مواطن الشّغل.
         </p>
-        <img src={Image1} style={{ margin: "10px" }} />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img src={Image1} style={{ margin: "10px" }} />
+        </div>
+
         <p>
           تنشط الصناعات التونسية في فروع عديدة ومتنوعة أهمها: صناعة النسيج
           والجلد التي توفر ‬‎ ‎‫200000 موطن شغل و40 بالمائة من حجم الصادرات.‬
         </p>
-        <div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
           <img src={Image2} style={{ margin: "10px" }} />
           <img src={Image3} style={{ margin: "10px" }} />
         </div>
@@ -155,17 +164,14 @@ function Lesson6() {
                 style={{ border: "1px solid black", padding: "10px" }}
               >
                 <p>
-                  <strong>صناعات غذائية</strong>
+                  <strong>نسيج وجلد</strong>
                 </p>
               </td>
               <td
                 width="456"
                 style={{ border: "1px solid black", padding: "10px" }}
               >
-                <p>
-                  زيت الزيتون، مصبرات الخضر والغلال، الحليب ومشتقاته، المياه
-                  المعدنية
-                </p>
+                <p>أقمشة، ملابس جاهزة، أحذية</p>
               </td>
             </tr>
             <tr>
@@ -174,17 +180,14 @@ function Lesson6() {
                 style={{ border: "1px solid black", padding: "10px" }}
               >
                 <p>
-                  <strong>صناعات غذائية</strong>
+                  <strong>صناعات متنوعة</strong>
                 </p>
               </td>
               <td
                 width="456"
                 style={{ border: "1px solid black", padding: "10px" }}
               >
-                <p>
-                  زيت الزيتون، مصبرات الخضر والغلال، الحليب ومشتقاته، المياه
-                  المعدنية
-                </p>
+                <p>الخفاف، البلاستيك، الورق</p>
               </td>
             </tr>
           </tbody>
@@ -195,7 +198,15 @@ function Lesson6() {
             لعدم وجود المواد الأولية الكافية والحاجة إلى تمويلات كبيرة&lrm;
             &lrm;‫وصغر حجم السوق المستهلكة للمصنوعات.
           </li>
-          <img src={Image4} style={{ margin: "10px" }} />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img src={Image4} style={{ margin: "10px" }} />
+          </div>
         </ul>
         <ul>
           <li>
@@ -435,7 +446,9 @@ function Lesson6() {
             </tr>
           </tbody>
         </table>
-        <img src={Image5} style={{ margin: "20px" }} />
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <img src={Image5} style={{ margin: "20px" }} />
+        </div>
         <div
           style={{
             display: "grid",
@@ -448,6 +461,10 @@ function Lesson6() {
               backgroundColor: "#f2f2f2",
               padding: "20px",
               borderRadius: "10px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: "column"
             }}
           >
             <img
@@ -463,6 +480,10 @@ function Lesson6() {
               backgroundColor: "#f2f2f2",
               padding: "20px",
               borderRadius: "10px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: "column"
             }}
           >
             <img
@@ -478,6 +499,10 @@ function Lesson6() {
               backgroundColor: "#f2f2f2",
               padding: "20px",
               borderRadius: "10px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: "column"
             }}
           >
             <img
@@ -491,6 +516,10 @@ function Lesson6() {
               backgroundColor: "#f2f2f2",
               padding: "20px",
               borderRadius: "10px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: "column"
             }}
           >
             <img
@@ -504,6 +533,10 @@ function Lesson6() {
               backgroundColor: "#f2f2f2",
               padding: "20px",
               borderRadius: "10px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: "column"
             }}
           >
             <img
@@ -517,7 +550,16 @@ function Lesson6() {
         </div>
         <a
           href="https://play.makeit.app?code=658158"
-          style={{ background: "cornflowerblue", color: "white", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "10px", marginTop: "25px", padding: "8px 0" }}
+          style={{
+            background: "cornflowerblue",
+            color: "white",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            borderRadius: "10px",
+            marginTop: "25px",
+            padding: "8px 0",
+          }}
         >
           تمرين تطبيقي
         </a>

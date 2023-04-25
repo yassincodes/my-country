@@ -15,6 +15,7 @@ import {
 import { Link } from "react-router-dom";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { useState } from "react";
+import logo from "./assets/logo.png";
 
 function Header({ styleProp, menuColorProp }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,7 @@ function Header({ styleProp, menuColorProp }) {
         <ModalOverlay />
         <ModalContent>
           <ModalHeader style={{ textAlign: "right" }}>
-          أختار المستوى الدراسي
+            أختار المستوى الدراسي
           </ModalHeader>
           <ModalBody
             style={{
@@ -62,7 +63,7 @@ function Header({ styleProp, menuColorProp }) {
       </Modal>
 
       <Link className="logo" to="/">
-        إعرف بلادك
+        <img src={logo} style={{ width: "50px" }} alt="logo" />
       </Link>
 
       <div className="big-screen">

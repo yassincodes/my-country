@@ -5,7 +5,7 @@ import FrontPage from "./FrontPage";
 import About from "./About";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
-import logo from "./assets/logo.jpeg";
+import logo from "./assets/logo.png";
 
 const AnimatedButton = motion(Button);
 function Home() {

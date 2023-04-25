@@ -170,10 +170,10 @@ function Videos() {
             <a
               href={video.link}
               target="_blank"
-              style={{margin: "10px", fontSize: "1.2em"}}
+              style={{margin: "10px", fontSize: "1.5em"}}
             >
               <div style={{display: "flex", flexDirection: "row-reverse"}}>
-                <img src={video.pic} style={{ width: "150px", borderRadius: "5px" }} />
+                <img src={video.pic} style={{ width: "300px", borderRadius: "5px" }} />
                 <div style={{marginRight: "10px", fontSize: "1.3em"}}>{video.title}</div>
               </div>
             </a>
@@ -185,3 +185,9 @@ function Videos() {
 }
 
 export default Videos;
+
+
+// tsawer fl wist (dars 6)
+// drous bl alwan + GIF
+// videos like youtube
+// mistakes in 6
