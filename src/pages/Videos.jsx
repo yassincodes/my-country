@@ -187,7 +187,5 @@ function Videos() {
 export default Videos;
 
 
-// tsawer fl wist (dars 6)
 // drous bl alwan + GIF
 // videos like youtube
-// mistakes in 6
