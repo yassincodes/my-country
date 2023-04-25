@@ -10,6 +10,7 @@ import Image8 from "../../assets/lesson6/Image8.jpg";
 import Image9 from "../../assets/lesson6/Image9.jpg";
 import Image10 from "../../assets/lesson6/Image10.jpg";
 import Image11 from "../../assets/lesson6/Image11.jpg";
+import Image12 from "../../assets/lesson6/Image12.jpg";
 
 function Lesson6() {
   return (
@@ -29,9 +30,9 @@ function Lesson6() {
       </div>
       <div
         dir="rtl"
-        style={{ textAlign: "right", padding: "50px", fontSize: "1.3em" }}
+        style={{ textAlign: "right", padding: "50px", fontSize: "1.3em", margin: "0 4vw" }}
       >
-        <h2 style={{ textAlign: "center", fontSize: "1.5em", margin: "20px" }}>
+        <h2 style={{ textAlign: "center", fontSize: "1.5em", margin: "50px 0 20px 0" }}>
           <strong>الدّرس السّادس: </strong>
           <strong>
             التّوزّع الجغرافي للصّناعة التّونسيّة وتطوّر أهمّ منتجاتها
@@ -549,27 +550,27 @@ function Lesson6() {
             </p>
           </div>
         </div>
-        <a
-          href="https://play.makeit.app?code=658158"
-          style={{
-            background: "cornflowerblue",
-            color: "white",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            borderRadius: "10px",
-            marginTop: "25px",
-            padding: "8px 0",
-          }}
-        >
-          تمرين تطبيقي
-        </a>
-        <a
-          style={{ display: "flex", justifyContent: "center" }}
-          href="https://www.liveworksheets.com/7-xa300475ak"
-        >
-          <img src={Image11} style={{ margin: "20px" }} />
-        </a>
+        <div>
+          <p style={{fontSize: "1.4em", margin: "30px", borderBottom: "2px solid black"}}>التمرين الأول</p>
+          <a
+            href="https://play.makeit.app?code=658158"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <img src={Image12} style={{ margin: "20px" }} />
+          </a>
+        </div>
+        <div>
+          <p style={{fontSize: "1.4em", margin: "30px", borderBottom: "2px solid black"}}>التمرين الثاني</p>
+          <a
+            style={{ display: "flex", justifyContent: "center" }}
+            href="https://www.liveworksheets.com/7-xa300475ak"
+          >
+            <img src={Image11} style={{ margin: "20px" }} />
+          </a>
+        </div>
       </div>
     </div>
   );
