@@ -9,6 +9,7 @@ import Image7 from "../../assets/lesson6/Image7.jpg";
 import Image8 from "../../assets/lesson6/Image8.jpg";
 import Image9 from "../../assets/lesson6/Image9.jpg";
 import Image10 from "../../assets/lesson6/Image10.jpg";
+import Image11 from "../../assets/lesson6/Image11.jpg";
 
 function Lesson6() {
   return (
@@ -464,7 +465,7 @@ function Lesson6() {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              flexDirection: "column"
+              flexDirection: "column",
             }}
           >
             <img
@@ -483,7 +484,7 @@ function Lesson6() {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              flexDirection: "column"
+              flexDirection: "column",
             }}
           >
             <img
@@ -502,7 +503,7 @@ function Lesson6() {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              flexDirection: "column"
+              flexDirection: "column",
             }}
           >
             <img
@@ -519,7 +520,7 @@ function Lesson6() {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              flexDirection: "column"
+              flexDirection: "column",
             }}
           >
             <img
@@ -536,7 +537,7 @@ function Lesson6() {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              flexDirection: "column"
+              flexDirection: "column",
             }}
           >
             <img
@@ -562,6 +563,12 @@ function Lesson6() {
           }}
         >
           تمرين تطبيقي
+        </a>
+        <a
+          style={{ display: "flex", justifyContent: "center" }}
+          href="https://www.liveworksheets.com/7-xa300475ak"
+        >
+          <img src={Image11} style={{ margin: "20px" }} />
         </a>
       </div>
     </div>
