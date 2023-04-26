@@ -44,7 +44,7 @@ function Home() {
               <img src={logo} style={{ width: "300px" }} alt="logo" />
             </motion.div>
             <div style={{ textAlign: "center" }}>
-              <div>🧑‍🏫 موقع من إنشاء المعلمان </div>
+              <div>🧑‍🏫 من إعداد المعلمان </div>
               <div>خالد جلالي وحذامي الحفيان المقدم</div>
             </div>
           </div>
