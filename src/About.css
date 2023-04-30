@@ -1,32 +1,40 @@
-
-
 .About_header {
-    text-align: center;
-    font-size: 1.6em;
-    margin: 15px;
-    font-family: 'Rakkas', cursive;
+  text-align: right;
+  font-size: 1.4em;
+  margin-right: 10vw;
+  margin-bottom: 25px
 }
 
 .About_section {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  background: white;
+  padding: 20px;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  border-radius: 20px;
+  box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.75);
 }
 
 .About_section_text {
-    width: 60vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: right;
-    padding: 20px;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  padding: 20px;
 }
 
-
-
 .About_section_image {
-    width: 40vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About_section_image_img {
+    border-radius: 20px;
 }

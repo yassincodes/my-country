@@ -1,9 +1,10 @@
 import videoBg from "./videoBg.mp4";
 import Header from "./Header";
+import "./FrontPage.css";
 
 function FrontPage() {
   return (
-    <>
+    <div className="lol">
       <div className="main">
         <video src={videoBg} autoPlay loop muted />
         <div className="main-text">
@@ -15,6 +16,7 @@ function FrontPage() {
               justifyContent: "center",
               alignItems: "center",
               height: "90vh",
+              paddingBottom: "30vh"
             }}
           >
             <div
@@ -41,8 +43,8 @@ function FrontPage() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
-export default FrontPage
+export default FrontPage;

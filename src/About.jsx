@@ -14,7 +14,7 @@ function About() {
           والتمارين المعدة بعناية والمطابقة للبرامج الرسمية
         </div>
         <div className="About_section_image">
-          <img src="https://i.gifer.com/origin/5f/5f4c86705e3811531edbd64ae5ed0a09_w200.gif" />
+          <img className="About_section_image_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/800px-Flag_of_Tunisia.svg.png" />
         </div>
       </div>
     </div>

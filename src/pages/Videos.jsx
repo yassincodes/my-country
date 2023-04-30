@@ -147,7 +147,7 @@ function Videos() {
       pic: "https://i3.ytimg.com/vi/j015LoL4Xd0/maxresdefault.jpg",
       title: "تونس",
       link: "https://youtu.be/j015LoL4Xd0",
-    }
+    },
   ];
   return (
     <div>
@@ -164,17 +164,63 @@ function Videos() {
           }}
         />
       </div>
-      <div style={{ textAlign: "right", padding: "10vh" }}>
+      <div
+        style={{
+          textAlign: "right",
+          padding: "10vh",
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+          gap: "20px",
+        }}
+      >
         {array.map((video) => {
           return (
             <a
               href={video.link}
               target="_blank"
-              style={{margin: "10px", fontSize: "1.5em"}}
+              style={{
+                margin: "10px",
+                fontSize: "1.5em",
+                display: "block",
+                paddingTop: "10vh"
+              }}
             >
-              <div style={{display: "flex", flexDirection: "row-reverse"}}>
-                <img src={video.pic} style={{ width: "300px", borderRadius: "5px" }} />
-                <div style={{marginRight: "10px", fontSize: "1.3em"}}>{video.title}</div>
+              <div
+                style={{
+                  borderRadius: "5px",
+                }}
+              >
+                <img src={video.pic} style={{ width: "100%" }} />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-player-play"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="white"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  style={{
+                    position: "absolute",
+                    top: "50%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)",
+                  }}
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M7 4v16l13 -8z" />
+                </svg>
+              </div>
+              <div
+                style={{
+                  marginTop: "10px",
+                  textAlign: "center",
+                  fontSize: "1.3em",
+                }}
+              >
+                {video.title}
               </div>
             </a>
           );
@@ -185,7 +231,6 @@ function Videos() {
 }
 
 export default Videos;
-
 
 // drous bl alwan + GIF
 // videos like youtube

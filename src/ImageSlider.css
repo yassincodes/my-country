@@ -1,13 +1,44 @@
-.Tunisian_images {
-
-}
-.Tunisian_image {
-
-    
+img {
+  margin: 20px;
+  border-radius: 20px;
 }
 
-/* @media only screen and (max-width: 700px) {
-    .Tunisian_image {
-        width: 90%
-    }
-} */
+.images {
+margin-left: 10px;
+margin-right: 10px;
+}
+/* ImagesGrid */
+.grids_container {
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.three_grids_container {
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.two_grids_container {
+  display: none;
+}
+
+.one_grid_container {
+  display: none;
+}
+
+@media only screen and (max-width: 990px) {
+  .three_grids_container {
+    display: none;
+  }
+
+  .two_grids_container {
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .one_grid_container {
+    display: none;
+  }
+}

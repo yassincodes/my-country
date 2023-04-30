@@ -3,12 +3,16 @@
 }
 
 .Gallery_container_header {
-    text-align: center;
+   text-align: right;
 }
 
 .Gallery_container_header_header {
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-family: 'Rakkas', cursive;
+    margin-right: 10vw;
+}
+
+.Gallery_container_header_message {
+    margin-right: 10vw;
 }

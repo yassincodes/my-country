@@ -46,3 +46,18 @@
   flex-direction: row-reverse;
   align-items: center;
 }
+
+.Footer_section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  background: white;
+  padding: 20px;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+  border-radius: 20px;
+  box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.75);
+}
