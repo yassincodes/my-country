@@ -17,7 +17,7 @@ function ImageSlider() {
     <img src="https://lh3.googleusercontent.com/p59iAyknQpKu0do19UCrxxiiTunu_hz-7XEBzWU10Pa5oHg2N-m6GT6WhRIJj8mkUqYf57vnAgEEo5SMobqObVfdqDmbU9ORiw9z5AH5W_hmPmCgb67Qz-CCQSSqIQlsEKZf_6EGxYf-0VolfKIBbriUsGdByBQsQ5NJ44zcy100PQtd0Ts4VmyQaBpIwzWXP3ahSiBxwwVK_PUL7WyHO8UkgmEbf6xCINMM75zyZX6eZmVGA-loCuIOrVw_ZNzyiYUcyn2y-YZsTKnzyTOHiDq1IG7zj4XL7O7FkdtmBiVnQeHHVh9o5xwdGRmKhHKf7aMvtIyWz5wP0I3gojVM-bD7rQj5R7LekjV4sC8_aTG4mPAgGaw6i2ojVr7K-ki71jiyH5ztpr4ECxJYzM0E8JFFX8MwOOBHeCaYSs5mND48vSMPZrWgaKX8ZBbnNCf1ZGrx2M8xaujDrEWmHi8iSNffITWEIN4llBzJBL0AN8vHSc9GBTXVpA5wqdvZCvzmuCpqEEGiOdGnKW4mrTTDNjMsRe4wLVNrWHdrdmRZ2j8OHRJzA0waYOdHeGZcQubloERpCAmT3SNuQlEwqyF-oZsSwRcwyxYpNA23EQ-kqUUTaX5QEAr66q93lPuOEicYjlzCSTKgDSZfm35Dr_yHAEQUquNO7C3VDTd5ZyZHOU00O-UhwOkDIu6LjWLPofscPZlP4YdOy3f7uL8j1y5Wy3Z4M_-C4qEh3DbQlEuGe3bn51C8m-HwltsCJ64AAB8m6Cxtgg_HuPNXYw727Ne67ZOtknB45DbnIy60pChYdNqg0kVOHmaJB3BR4aLJ_IS-QCd9wJr6-1AI2jSWjd4Q2gBVbX9ldzBZjGd5-Bip5po8zv7wpau89nolr5wLZYsOmDSKyNqglBsHI1BSUjtzcYOT2ZxQ4GUM--1lwENXn00OpTaXNd-ifEVOwP8qd_MUmWi2U78cgdUBygcetbWb7HTCO4MAxHNdlVpEzt4aQWP1gnsf0pLqmPB_=w625-h625-s-no?authuser=0" />,
     <img src="https://lh3.googleusercontent.com/zmoD2wijy8XfKBtqs2imEPpzPIr8HgscZjDuRVgenHFUQedx-dnYWg_DTvEmazxiQxGOnApsEyV9KthfqHULiFp0oAkqvIIJL0sAxl3Um2-NAv-L-HbreqkQ-xp2-6E1WWQIWJcdSOKtOZhiLccZR9jA4sAvQGHi_wHKj0Bc_4xTzCSFB9H-PV0VJ-dg0dJP9MdozNZRDTUeYp2r6QFYnKdtCb7wFEqZZS2vDdSwhp1sw8mNZdHbntFQIMKjwJU79__PoYbjVv6QtM-5WJ6DSXL4wMu-u9MfyRN-ncRDV0mLAMPS1C5Q85yEuPe0VimXBCN1T6W_Ylz_W00PDwNfQ2G5GW3Nxp55ne-nPfg3GlPBCXqU11hdn6XICfE7biib4jTodYYVCmLJotJJIO7o2Hswsf8Bn7AyPBdq2_PeGEauNvRJI2lYZ88OOQuSxogqe2gHWdhbpLEc6sV9-kxwYGmLNcJgUUaj9gQSiwPr6pIkZU1OBgsw4ae6YM54SkiffUdM5bYo9sGcWpAuwBUMkW-ygWbBP8QpMS5-CPniBv4ifalbmHYtF7ddMgsbtiErrHDDubnnOkxBwh2LY6PNmB4gr_IbvREIWZd-RgQvSQMvxrs0Eo9WHgC4sx6q-NYQLYzWd309zFJLu-sFHoazzNP9burfTMRhv5XuJnreKdA-F5Rm-qbRU01u-4Ti1xnddFJl9QTOL-eVwX6dsXDRv1kV9b4jKxxcl4CTe6scuEXjBLgU3n5ajTseTP1BiirTvyQzvPpCE38uBWKGG8MP-3_NLPzT-wUSo5O9ZvIPoALe1UkZNCt_VfHbZDYuxyDtqA_Q4PD3DOfuEJlAqv1be5cAPAYYVD9T4On8fWRLF7mGoH6QWwc7RLRW4wSI6vHe_ZN9cu4vpKbDgruyl8-WllDcwDg7_rlWvCFs-ssVHZ9voL_NV-7ccPdzuXuftjvFMSWW0_ZSvp8AK_1E6myedds5zNfwL4cC2I6d28l-whonXm8azdxOTQSz=w938-h625-s-no?authuser=0" />,
     <img src="https://lh3.googleusercontent.com/HjAmBVnCFBI7Ax8RUcL33BbTNj3R26_uXmLNsfYFWWeMlH0k20WpwF6huiYBxRBa8y4LC3KDdGaLHX0Nv5IRfjU8Z7bdthWJBodLdnbftTSB33cjpR4B2p1Ykw_6rg4Zr5gKqkC-2eJdXjZ6Uoqalhp2JmQ4dvKYU01VdiGdq-66elxZBU9M4CeZNVs-05akNUB2b1S488JNQZINcDc0uYE1hLOtupcj-3aT_j7-1jGCec2k9ktwUk4-a9ppyWENH9CRp1p-Q1vxRGxVkaOFYsaBV8oIcNY19KV-MIwMoZXMT6JCJq_xYAJLHHlC1YPUgJpDwb9EMGrMq_6yNG4bdDpQA-OhSz0EeFDXz8LwefZextiWfKlWr4tUXcavjlYrb02glVTPqTOz7lYRnF0bTccJUJ4roP7R25Cmmb2IZVgoArd0pWUgDImUvh2OVR-s1J7t3hjx_pRF4ss2pbKntotWUzWAfmKM7Ny3RcuQY7WLbF5K9d56wpj6Lbe5YzJVKjvXExL0PEu53DDk0vENwP-K65C6cuIZFuhc6Usxiu6vu27Kbyk_vkkvQIWF_-ayAUM5AHoxjacGIpT3Y-TVPIKBfRZ3DJbvKr2EKInor2owY1t-YDinmMCZAYtdLnaWlUH1rmvL7AfVpvWHnKwP1tsXAaq_f05_stgF6iWYhBVb22XZXVLmII47mv_9IhP75XXg9oZOEILPtIz1tJSLVZKfgTpMFUHU1nYCzbHpz7pDTLWMqK90juRi5A9CR6B5dqP0rRfbx44Ci0_TvZfh7EtDPdCte-e9yPSUpq8IiY-ahGrEcTiHP6YN5MjGZENzgiQisq0SwvWJfWyjrnTaBzeezYwSNFCoym2btoKwYDf8xY2de3gVWfoleb1QP2BA9kHYcN9wmfIt4P4lRdbw5oEltKXHiIGKHr-ePvCWPYCvmToEb3AkAgacrW_pNQyDWfYb2Hqc8h1ECUhNdXFQUw2PbfRXPGp9hf7qMZuLASvL3cCj9GRf2vV_=w418-h625-s-no?authuser=0" />,
-    <div>hiiii</div>
+    <div></div>
   ];
 
   const threeGrid1 = images.slice(0, 4); // first 4 images
@@ -26,7 +26,7 @@ function ImageSlider() {
 
   const twoGrid1 = images.slice(0, 6); // first 6 images
   const twoGrid2 = images.slice(6, 12); // last 6 images
-
+//
   return (
     <div className="grids_container">
       <div className="three_grids_container">
@@ -40,7 +40,7 @@ function ImageSlider() {
             return <>{image}</>
           })}
         </div>
-        <div className="imagess">
+        <div className="images">
           {threeGrid3.map((image) => {
             return <>{image}</>
           })}

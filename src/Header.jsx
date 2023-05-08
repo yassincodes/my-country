@@ -81,7 +81,7 @@ function Header({ styleProp, menuColorProp }) {
           <Link to="/videos">فديوهات تعليمية</Link>
         </div>
         <div style={{ marginRight: "7.5px", marginLeft: "7.5px" }}>
-          <Link to="/atlas">أطلسي</Link>
+          <a href="https://heyzine.com/flip-book/fd9880d5ef.html">أطلسي</a>
         </div>
       </div>
       <div className="small-screen">
@@ -104,11 +104,12 @@ function Header({ styleProp, menuColorProp }) {
                 فديوهات تعليمية
               </MenuItem>
             </Link>
-            <Link to="/atlas">
+            <a href="https://heyzine.com/flip-book/fd9880d5ef.html">
               <MenuItem style={{ flexDirection: "row-reverse" }}>
                 أطلسي
               </MenuItem>
-            </Link>
+            </a>
+
           </MenuList>
         </Menu>
       </div>

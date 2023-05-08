@@ -6,14 +6,14 @@ function Gallery() {
     <div className="Gallery_container" style={{ marginTop: "6vh" }}>
       <div className="Gallery_container_header">
         <div className="Gallery_container_header_header">معرض الصور</div>
-        {
-          //     <div className="Gallery_container_header_message">
-          //   <i>"😍 خلينا نتعرفوا على بلادنا المزيانة"</i>
-          //  </div>
-        }
-
-        <ImageSlider />
       </div>
+      {
+        //     <div className="Gallery_container_header_message">
+        //   <i>"😍 خلينا نتعرفوا على بلادنا المزيانة"</i>
+        //  </div>
+      }
+
+      <ImageSlider />
     </div>
   );
 }

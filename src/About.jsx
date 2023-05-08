@@ -1,5 +1,6 @@
 import "./About.css";
-
+// ns1.dnssafozi.com
+// ns2.dnssafozi.com
 function About() {
   return (
     <div
