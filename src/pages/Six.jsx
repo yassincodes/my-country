@@ -83,7 +83,7 @@ function Six() {
       color: "#D5E5F5",
       fileLink:
         "https://drive.google.com/file/d/10ReE1-CrC-fZrYv52kox_K-1Yqmc1iJZ/view?usp=share_link",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-vb299611xk",
       secondGameLink: "",
     },
     {
@@ -93,7 +93,8 @@ function Six() {
       fileLink:
         "https://drive.google.com/file/d/17ioOzujVgqRgKaAhOPjrCvzyy7sEVjOq/view?usp=share_link",
       firstGameLink: "",
-      secondGameLink: "",
+      secondGameLink: "https://play.makeit.app?code=164701",
+      code: "164701",
     },
     {
       title: "الدّرس الثالث: ظروف النّشاط الفلاحي الطّبيعيّة والبشريّة",
@@ -109,7 +110,8 @@ function Six() {
       fileLink:
         "https://drive.google.com/file/d/1BFdLpXktqpK90UjjXJbMAXYl-nCNKPBH/view?usp=share_link",
       firstGameLink: "",
-      secondGameLink: "",
+      secondGameLink: "https://play.makeit.app?code=438817",
+      code: "438817",
     },
     {
       title: " الدّرس الخامس: ظروف النّشاط الصناعي: الموارد والظّروف البشريّة",
@@ -125,7 +127,7 @@ function Six() {
       color: "#E2E2E2",
       fileLink:
         "https://drive.google.com/file/d/1hQYpIs0i0vEo1RJ-I2tOsBS26WpJUsDR/view?usp=share_link",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-xa300475ak",
       secondGameLink: "",
     },
     {
@@ -144,7 +146,8 @@ function Six() {
       fileLink:
         "https://drive.google.com/file/d/1rl0VI_hic5KG3RPHWRccRFbv5z7Joize/view?usp=share_link",
       firstGameLink: "",
-      secondGameLink: "",
+      secondGameLink: "https://play.makeit.app?code=425744",
+      code: "425744",
     },
     {
       title:
@@ -153,12 +156,15 @@ function Six() {
       fileLink:
         "https://drive.google.com/file/d/11PrXsyaAsiK-qyf3zoBBmxZl5AGKrm0c/view?usp=share_link",
       firstGameLink: "",
-      secondGameLink: "",
+      secondGameLink: "https://play.makeit.app?code=471454",
+      code: "471454",
     },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
   const [selectedLesson, setSelectedLesson] = useState(null);
+  const [firstPage, setFirstPage] = useState(true);
+
   return (
     <div>
       <div>
@@ -208,66 +214,210 @@ function Six() {
             <ModalContent>
               <ModalHeader style={{ textAlign: "right" }}>
                 {selectedLesson.title}
+                {firstPage === false ? (
+                  <div onClick={() => setFirstPage(true)}>
+                    <Button
+                      colorScheme="white"
+                      style={{
+                        padding: "0px",
+                        display: "flex",
+                        justifyContent: "center",
+                      }}
+                      _hover={{ background: "#edf2f7" }}
+                    >
+                      go back
+                    </Button>
+                  </div>
+                ) : (
+                  <span></span>
+                )}
               </ModalHeader>
-              <ModalBody
-                style={{
-                  textAlign: "right",
-                  display: "flex",
-                  flexDirection: "column",
-                  padding: "10vh 10vw",
-                }}
-              >
-                <Button
-                  style={{ margin: "10px", width: "100%", textAlign: "right"  }}
-                  onClick={() => window.open(selectedLesson.fileLink, "_blank")}
-                >
-                  <p style={{ marginRight: "5px", width: "55%" }}>فتح الدرس</p>
-                  {eyeSVG}
-                </Button>
-
-                <Button
+              {firstPage ? (
+                <ModalBody
                   style={{
-                    margin: "10px",
-                    width: "100%",
-                    display: "flex",
-                    justifyContent: "center",
                     textAlign: "right",
+                    display: "flex",
+                    flexDirection: "column",
+                    padding: "10vh 10vw",
                   }}
-                  onClick={() =>
-                    window.open(
-                      `https://drive.google.com/u/0/uc?id=${
-                        selectedLesson.fileLink.split("/")[5]
-                      }&export=download`,
-                      "_blank"
-                    )
-                  }
                 >
-                  <div style={{ marginRight: "5px", width: "55%" }}>
-                    {" "}
-                    تحميل الدرس{" "}
-                  </div>
-                  <div>{downloadSVG}</div>
-                </Button>
+                  <Button
+                    style={{
+                      margin: "10px",
+                      width: "100%",
+                      textAlign: "right",
+                    }}
+                    onClick={() =>
+                      window.open(selectedLesson.fileLink, "_blank")
+                    }
+                  >
+                    <p style={{ marginRight: "5px", width: "55%" }}>
+                      فتح الدرس
+                    </p>
+                    {eyeSVG}
+                  </Button>
 
-                <Button
-                  style={{ margin: "10px", width: "100%", textAlign: "right" }}
-                  onClick={() => window.open(selectedLesson.fileLink, "_blank")}
-                >
-                  <div style={{ marginRight: "5px", width: "55%" }}>
-                    {" "}
-                    التمارين المرفقة
-                  </div>
-                  <div>{exercicesSVG}</div>
-                </Button>
+                  <Button
+                    style={{
+                      margin: "10px",
+                      width: "100%",
+                      display: "flex",
+                      justifyContent: "center",
+                      textAlign: "right",
+                    }}
+                    onClick={() =>
+                      window.open(
+                        `https://drive.google.com/u/0/uc?id=${
+                          selectedLesson.fileLink.split("/")[5]
+                        }&export=download`,
+                        "_blank"
+                      )
+                    }
+                  >
+                    <div style={{ marginRight: "5px", width: "55%" }}>
+                      {" "}
+                      تحميل الدرس{" "}
+                    </div>
+                    <div>{downloadSVG}</div>
+                  </Button>
 
-                <Button
-                  colorScheme="blue"
-                  style={{ margin: "10px", width: "100%"}}
-                  onClick={() => setIsOpen(false)}
-                >
-                  إغلاق
-                </Button>
-              </ModalBody>
+                  {selectedLesson.firstGameLink && (
+                    <Button
+                      style={{
+                        margin: "10px",
+                        width: "100%",
+                        textAlign: "right",
+                      }}
+                      onClick={() =>
+                        window.open(selectedLesson.firstGameLink, "_blank")
+                      }
+                    >
+                      <div style={{ marginRight: "5px", width: "55%" }}>
+                        {" "}
+                        تمرين تطبيقي
+                      </div>
+                      <div>{exercicesSVG}</div>
+                    </Button>
+                  )}
+
+                  {selectedLesson.secondGameLink && (
+                    <Button
+                      style={{
+                        margin: "10px",
+                        width: "100%",
+                        textAlign: "right",
+                      }}
+                      onClick={() => setFirstPage(false)}
+                    >
+                      <div style={{ marginRight: "5px", width: "55%" }}>
+                        {" "}
+                        تمرين تطبيقي
+                      </div>
+                      <div>{exercicesSVG}</div>
+                    </Button>
+                  )}
+
+                  <Button
+                    colorScheme="blue"
+                    style={{ margin: "10px", width: "100%" }}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    إغلاق
+                  </Button>
+                </ModalBody>
+              ) : (
+                <ModalBody style={{ textAlign: "right" }}>
+                  <div style={{ margin: "20px 0" }}>
+                    لفتح هذا التمرين, كل ما عليك القيام به هو التالي
+                  </div>
+                  <div
+                    style={{
+                      margin: "20px 0",
+                      display: "flex",
+                      flexDirection: "row-reverse",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                    }}
+                  >
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-circle-1"
+                        width="44"
+                        height="44"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#2c3e50"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M12 16v-8l-2 2" />
+                        <circle cx="12" cy="12" r="9" />
+                      </svg>
+                    </div>
+                    <div>أقوم بالضغط على</div>
+                    <div>
+                      <a
+                        href="https://play.makeit.app?code=164701"
+                        style={{ marginRight: "10px", color: "blue" }}
+                      >
+                        الرابط التالي
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      margin: "20px 0",
+                      display: "flex",
+                      flexDirection: "row-reverse",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                    }}
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-circle-2"
+                      width="44"
+                      height="44"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="#2c3e50"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M10 10a2 2 0 1 1 4 0c0 .591 -.417 1.318 -.816 1.858l-3.184 4.143l4 0" />
+                      <circle cx="12" cy="12" r="9" />
+                    </svg>
+                    <div> أكتب الكود التالي {selectedLesson.code}</div>
+                  </div>
+                  <Button
+                    style={{ margin: "10px", marginTop: "3vh", width: "100%" }}
+                    onClick={() => setFirstPage(true)}
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-arrow-narrow-left"
+                      width="44"
+                      height="44"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="#2c3e50"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <line x1="5" y1="12" x2="19" y2="12" />
+                      <line x1="5" y1="12" x2="9" y2="16" />
+                      <line x1="5" y1="12" x2="9" y2="8" />
+                    </svg>
+                  </Button>
+                </ModalBody>
+              )}
               <ModalFooter
                 style={{ display: "flex", justifyContent: "flex-start" }}
               ></ModalFooter>

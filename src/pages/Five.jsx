@@ -82,7 +82,7 @@ function Five() {
       color: "#F7EAC8",
       fileLink:
         "https://drive.google.com/file/d/1RWzzzwQ_Ggrpo-Nsm0vH6ye0G23hUhup/view",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-gp235360jz",
       secondGameLink: "",
     },
     {
@@ -90,7 +90,7 @@ function Five() {
       color: "#D5E5F5",
       fileLink:
         "https://drive.google.com/file/d/1K0NwxGChxtu1MYalg6McUzx87Gjp8-iV/view?usp=share_link",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-ji237650vh",
       secondGameLink: "",
     },
     {
@@ -98,7 +98,7 @@ function Five() {
       color: "#FFC0CB",
       fileLink:
         "https://drive.google.com/file/d/1kVXPI3IQ_mA9eu-kz_PxZdqGzuhyPRed/view",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-dd236924ah",
       secondGameLink: "",
     },
     {
@@ -106,14 +106,14 @@ function Five() {
       color: "#E4E4C5",
       fileLink:
         "https://drive.google.com/file/d/1f-7K_9cuoWBxIxR5QobV3LTlMXNLkGOJ/view",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-bv299217lu",
       secondGameLink: "",
     },
     {
       title: " الدرس الخامس: مشهد ريفي من الوسط التونسي",
       color: "#F5D0C5",
-      fileLink: "",
-      firstGameLink: "",
+      fileLink: "https://drive.google.com/file/d/1M0t3L33qku-Hjj41SKjrvJD3MmBjaPyl/view?usp=share_link",
+      firstGameLink: "https://www.liveworksheets.com/7-dz298094ev",
       secondGameLink: "",
     },
     {
@@ -121,31 +121,31 @@ function Five() {
       color: "#B1D4E0",
       fileLink:
         "https://drive.google.com/file/d/1u2nFhFSJbhipYOKbSSq_oF0uli2gDdgL/view",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-mq246947qr",
       secondGameLink: "",
     },
     {
       title: " الدّرس السّابع: المشهد الحضري المحلّي",
       color: "#E2E2E2",
       fileLink:
-        "https://drive.google.com/file/d/1RWzzzwQ_Ggrpo-Nsm0vH6ye0G23hUhup/view",
-      firstGameLink: "",
+        "https://drive.google.com/file/d/1_sOJ5lBKNJa1AKK3Mj8FO1lHNACRwnuh/view",
+      firstGameLink: "https://www.liveworksheets.com/7-vp298117om",
       secondGameLink: "",
     },
     {
       title: "الدّرس الثامن: موضع المدينة وموقعها",
       color: "#EFE0E9",
       fileLink:
-        "https://drive.google.com/file/d/1RWzzzwQ_Ggrpo-Nsm0vH6ye0G23hUhup/view",
-      firstGameLink: "",
+        "https://drive.google.com/file/d/1T7SC5b9Uthnan3hwdWdv2H7GXqycN3nS/view",
+      firstGameLink: "https://www.liveworksheets.com/7-vt298774us",
       secondGameLink: "",
     },
     {
       title: "الدرس التاسع: تصميم المدينة",
       color: "#F3F3E7",
       fileLink:
-        "https://drive.google.com/file/d/1RWzzzwQ_Ggrpo-Nsm0vH6ye0G23hUhup/view",
-      firstGameLink: "",
+        "https://drive.google.com/file/d/1UEZP0hu40rMGzfql64L7Dz2hd51qpkl6/view?usp=share_link",
+      firstGameLink: "https://www.liveworksheets.com/7-nd298161hm",
       secondGameLink: "",
     },
     {
@@ -153,7 +153,7 @@ function Five() {
       color: "#C9EBD9",
       fileLink:
         "https://drive.google.com/file/d/1yDqnikgLWVNKBkflyXIY8CEZMVyeJuhU/view",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-gv298172rl",
       secondGameLink: "",
     },
     {
@@ -161,7 +161,7 @@ function Five() {
       color: "#FCE6C9",
       fileLink:
         "https://drive.google.com/file/d/1bibRXsXfHg8OwTBftAaL4aw2cxuPOFqR/view?usp=share_link",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-bl298180vm",
       secondGameLink: "",
     },
     {
@@ -169,7 +169,7 @@ function Five() {
       color: "#D1E0E3",
       fileLink:
         "https://drive.google.com/file/d/1DpnGxaKofI-8yErS1bG4UEyspzservHf/view?usp=share_link",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-zy299221su",
       secondGameLink: "",
     },
     {
@@ -177,7 +177,7 @@ function Five() {
       color: "#E6F7FF",
       fileLink:
         "https://drive.google.com/file/d/1r2ev_FWlxqunLRqQVORu7MYSYNX9TwUB/view?usp=share_link",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-ck298213rl",
       secondGameLink: "",
     },
     {
@@ -193,7 +193,7 @@ function Five() {
       color: "#E8E8E8",
       fileLink:
         "https://drive.google.com/file/d/18xOkiVi2lYhoM2mX94nFcdNj_mjJe-3x/view",
-      firstGameLink: "",
+      firstGameLink: "https://www.liveworksheets.com/7-yg298198hm",
       secondGameLink: "",
     },
   ];
@@ -290,16 +290,16 @@ function Five() {
                   <div>{downloadSVG}</div>
                 </Button>
 
-                <Button
+                {selectedLesson.firstGameLink ? <Button
                   style={{ margin: "10px", width: "100%", textAlign: "right" }}
-                  onClick={() => window.open(selectedLesson.fileLink, "_blank")}
+                  onClick={() => window.open(selectedLesson.firstGameLink, "_blank")}
                 >
                   <div style={{ marginRight: "5px", width: "55%" }}>
                     {" "}
-                    التمارين المرفقة
+                    تمرين تطبيقي
                   </div>
                   <div>{exercicesSVG}</div>
-                </Button>
+                </Button> : ""}
 
                 <Button
                   colorScheme="blue"
