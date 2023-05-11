@@ -55,7 +55,6 @@ function Home() {
             <FrontPage />
             <About />
             <Gallery />
-            <Footer />
           </div>
         )}
       </div>

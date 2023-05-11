@@ -1,3 +1,6 @@
 -> the best way to know the caracter of someone is to find the similar character,
 there are similar characters,
 your job is to view somone, and to find who is the one that is similar to him.
+
+
+it is sometimes time for me to try to make different wa7las
