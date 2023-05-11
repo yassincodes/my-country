@@ -15,7 +15,7 @@ function FrontPage() {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
-              height: "90vh",
+              height: "100vh",
               paddingBottom: "30vh"
             }}
           >
