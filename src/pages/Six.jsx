@@ -183,7 +183,7 @@ function Six() {
       <div
         style={{
           textAlign: "right",
-          paddingTop: "16vh",
+          paddingTop: "14vh",
           marginRight: "10vw",
           marginLeft: "10vw",
           fontSize: "1.3em",
@@ -198,6 +198,7 @@ function Six() {
               borderRadius: "10px",
               background: lesson.color,
               padding: "5px",
+              cursor: "pointer",
             }}
             onClick={() => {
               setSelectedLesson(lesson); // update selected lesson
@@ -357,11 +358,52 @@ function Six() {
                         <circle cx="12" cy="12" r="9" />
                       </svg>
                     </div>
+                    <div>أقوم بتحميل تطبيق إعرف بلادك عبر </div>
+                    <div>
+                      <a
+                        href="https://b1files.mobeasy.com/builds/build-871683-20230508143827.apk"
+                        style={{ marginRight: "10px", color: "blue" }}
+                      >
+                        النقر هنا
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      margin: "20px 0",
+                      display: "flex",
+                      flexDirection: "row-reverse",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                    }}
+                  >
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-circle-2"
+                        width="44"
+                        height="44"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#2c3e50"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          stroke="none"
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        ></path>
+                        <path d="M10 10a2 2 0 1 1 4 0c0 .591 -.417 1.318 -.816 1.858l-3.184 4.143l4 0"></path>
+                        <circle cx="12" cy="12" r="9"></circle>
+                      </svg>
+                    </div>
                     <div>أقوم بالضغط على</div>
                     <div>
                       <a
                         href="https://play.makeit.app?code=164701"
-                        style={{ marginRight: "10px", color: "blue" }}
+                        style={{ marginRight: "5px", color: "blue" }}
                       >
                         الرابط التالي
                       </a>
@@ -378,7 +420,7 @@ function Six() {
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="icon icon-tabler icon-tabler-circle-2"
+                      class="icon icon-tabler icon-tabler-circle-number-3"
                       width="44"
                       height="44"
                       viewBox="0 0 24 24"
@@ -389,10 +431,10 @@ function Six() {
                       stroke-linejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <path d="M10 10a2 2 0 1 1 4 0c0 .591 -.417 1.318 -.816 1.858l-3.184 4.143l4 0" />
-                      <circle cx="12" cy="12" r="9" />
+                      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                      <path d="M10 9a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1" />
                     </svg>
-                    <div> أكتب الكود التالي {selectedLesson.code}</div>
+                    <div> أكتب الرمز التالي {selectedLesson.code}</div>
                   </div>
                   <Button
                     style={{ margin: "10px", marginTop: "3vh", width: "100%" }}

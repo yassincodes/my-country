@@ -218,10 +218,11 @@ function Five() {
       <div
         style={{
           textAlign: "right",
-          paddingTop: "16vh",
+          paddingTop: "14vh",
           marginRight: "10vw",
           marginLeft: "10vw",
           fontSize: "1.3em",
+          cursor: "pointer"
         }}
       >
         {array.map((lesson, index) => (
