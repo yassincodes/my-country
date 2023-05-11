@@ -26,6 +26,8 @@ function ImageSlider() {
 
   const twoGrid1 = images.slice(0, 6); // first 6 images
   const twoGrid2 = images.slice(6, 12); // last 6 images
+
+  const oneGrid = images.slice(0,12)
 //
   return (
     <div className="grids_container">
@@ -62,7 +64,7 @@ function ImageSlider() {
 
       <div className="one_grid_container">
         <div className="images">
-          {images.map((image) => {
+          {oneGrid.map((image) => {
             return <>{image}</>
           })}
         </div>
