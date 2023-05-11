@@ -3,6 +3,7 @@ import Header from "./Header";
 import "./FrontPage.css";
 
 function FrontPage() {
+  //
   return (
     <div className="lol">
       <div className="main">
