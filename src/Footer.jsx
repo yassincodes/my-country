@@ -128,7 +128,7 @@ function Footer() {
           <a href="mailto:jellalikhaled8@gmail.com">
             <div>{mailIcon}</div>
           </a>
-          <div onClick={() => setIsOpen(true)}>{phoneIcon}</div>
+          <div style={{pointer: "cursor"}} onClick={() => setIsOpen(true)}>{phoneIcon}</div>
         </div>
       </div>
     </>
