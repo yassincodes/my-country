@@ -7,7 +7,7 @@ function ImageSlider() {
   const images = [
     {
       id: 0,
-      img: <img src="https://drive.google.com/file/d/1uQqBeYxo7FSMUZk5QUGXPifNSCnny0WY/view?usp=sharing" />,
+      img: <img src="https://drive.google.com/file/d/1uQqBeYxo7FSMUZk5QUGXPifNSCnny0WY/" />,
     },
     {
       id: 1,
