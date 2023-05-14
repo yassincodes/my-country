@@ -8,7 +8,7 @@ function ImageSlider() {
     {
       id: 0,
       img: (
-        <img src="https://lh3.googleusercontent.com/7_Iglzl9dHCbYSV-maH-HyRbs4u6oQk2u2shTu93BJzqxSRuRtK_BybiMeLk1dksbOHHuNMDV7i1Jyc0MUgSYdnA7YMDpMCVdB72kj10Sd2j2nqQIrNugPDVgnUN-x_OWMtEagqhTx3YsUnK7_cgNpb2k0dg4i_7-1RXsUCyLoNYiJlZvbYx_CKkDR30GyYD1b4uRsK93GMw0slFgN1Pp-UB6x0Z9rPe2YZm04S2NPGjDgtWBkRFt8YTb2iHl2Ftn9-ngBpvW8I0As61gZTMZZQYhJnqRlD_iyg09b3Oql8qRX7E6U40AsbzJ3KwdyZYzMiKbhblML8qbZ--fmuWhoB2D7iyl5XUPKE-0thacel58t97hegwJ6u9eiiwaO7q8gZUCUeEaKa4eIWXEKPnX_jr4oCleOuF8FjHa5kJeY-AQj72bExvLcBpyNga2BT2B3hgsLSVTvfJbkBXkcvcfH1kkyGX49XsqT5qEow1KX5eQo-_0HtVeLl4C4s7oEbDmz_lHHybwqZU52OQsFqVrQXZYsvEDfNMIEwK-2_WBVNn9YQeYf4UxF2VjGBlXgM7DTMFkgiNTy9k1mwvPem6wqHpxShmA67ezdkSzrapJHNSTNnuxC7sNph6dio8EKcNuJIpb6myHRYtR6sXtuRz8pF5D-dyNP7wCzGYVU4WWd_yOQIM30aUHoPAlGxrKqYKZizCS5GiiEtg5fiKJUj-YhJaAff9m4qnqQ1TNqVv8zWwgCb794sqXENffPgoSu-qxJF0v2_fhyU4HhmHL7mEWnFX9az2k6hTp5PuMEnDQF2VLSXtPXF_korOVUVqUJFjzeFQ1VOi5g4ilT5SGMsnWtcqXe2wkpIxiDBULpy0n_LZRgrM78ppJ-3TAoBMkc0wiTMq3dp88QgshgAQhZcWtYaBVt4_x7Srnp-4wCctdZLAdNpuNxLKYEnKwf5_LaFgJwBn4OgOnGovwrOtdw68P2SZUfoNkxH7wPpbnWdQKUXc6YiktGTsxXgf=w417-h625-s-no?authuser=0" />
+        <img src="https://cdn.britannica.com/24/189624-050-F3C5BAA9/Mona-Lisa-oil-wood-panel-Leonardo-da.jpg" />
       ),
     },
     {
