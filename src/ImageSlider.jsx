@@ -7,7 +7,7 @@ function ImageSlider() {
   const images = [
     {
       id: 0,
-      img: <img src="blob:https://web.whatsapp.com/6c48d2e6-ee0e-43fc-adb9-0e3a6ae0142c" />,
+      img: <img src="https://fv9-5.failiem.lv/thumb.php?i=yzk9y3zpv&download_checksum=39bf9e32bbf1fe760f811fb5483a5a6a3036c5bb&download_timestamp=1684075996" />,
     },
     {
       id: 1,
