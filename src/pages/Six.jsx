@@ -183,7 +183,7 @@ function Six() {
       <div
         style={{
           textAlign: "right",
-          paddingTop: "14vh",
+          paddingTop: "13vh",
           marginRight: "10vw",
           marginLeft: "10vw",
           fontSize: "1.3em",
