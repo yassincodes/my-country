@@ -7,9 +7,7 @@ function ImageSlider() {
   const images = [
     {
       id: 0,
-      img: (
-        <img src="https://cdn.britannica.com/24/189624-050-F3C5BAA9/Mona-Lisa-oil-wood-panel-Leonardo-da.jpg" />
-      ),
+      img: <img src="" />,
     },
     {
       id: 1,
