@@ -108,11 +108,11 @@ function Footer() {
             <div>يمكنك الإتصال بنا عن طريق الرقم التالي</div>
             <div style={{fontSize: "1.9em", marginTop: "20px"}}>+21655025758</div>
           </ModalBody>
-          <ModalFooter style={{display: "flex", flexDirection: "column"}}>
-            <Button onClick={handleCopyNumber} style={{width: "50vw", marginBottom: "10px"}}>
+          <ModalFooter style={{display: "flex", flexDirection: "column", width: "100%"}}>
+            <Button onClick={handleCopyNumber} style={{width: "50%", marginBottom: "10px"}}>
               {copyNumberMessage ? "🎉 تم النسخ" : "نسخ الرقم"}
             </Button>
-            <Button colorScheme="blue" mr={3} onClick={handleClose} style={{width: "50vw", marginRight: "0", marginBottom: "4px"}}>
+            <Button colorScheme="blue" mr={3} onClick={handleClose} style={{width: "50%", marginRight: "0", marginBottom: "4px"}}>
               إغلاق النافذة
             </Button>
           </ModalFooter>
@@ -128,7 +128,7 @@ function Footer() {
           <a href="mailto:jellalikhaled8@gmail.com">
             <div>{mailIcon}</div>
           </a>
-          <div style={{pointer: "cursor"}} onClick={() => setIsOpen(true)}>{phoneIcon}</div>
+          <div style={{cursor: "pointer"}} onClick={() => setIsOpen(true)}>{phoneIcon}</div>
         </div>
       </div>
     </>
