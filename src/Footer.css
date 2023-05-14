@@ -1,8 +1,8 @@
 .Footer_container {
   text-align: right;
-  padding: 20px;
   z-index: 100;
   position: absolute;
+  width: 90vw
 }
 
 .Footer_container_1 {
@@ -50,6 +50,7 @@
   padding: 20px;
   margin-right: 10vw;
   margin-left: 10vw;
+  width: 79vw;
   margin-bottom: 5vh;
   border-radius: 20px;
   box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.75);
